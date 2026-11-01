@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model and large data files
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# Python test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
